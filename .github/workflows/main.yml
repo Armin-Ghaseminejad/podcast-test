@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Chackout Repo
+      - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: armin-ghaseminejad/podcast-generator@main
+        uses: armin-ghaseminejad/podcast-generator@master
       
